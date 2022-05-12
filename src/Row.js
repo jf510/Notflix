@@ -12,7 +12,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
     // if variable, run once when the row loads and everytime the variable changes
     async function fetchData() {
       const request = await axios.get(fetchUrl);
-      console.log(request.data.results);
       setMovies(request.data.results);
       return request;
     }

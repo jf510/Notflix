@@ -2,7 +2,7 @@
     color: white;
     object-fit: contain;
     min-height: 20vh !important;
-    height: 60vh;
+    
 }
 
 .banner__contents {
@@ -25,7 +25,7 @@
     font-size: 0.9rem;
     max-width: 360px;
     height: 80px;
-    font-weight: 500;
+    font-weight: 200;
 }
 
 .banner__button {
